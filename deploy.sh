@@ -8,5 +8,7 @@ pm2 stop devops-final
 cd devops-final/
 #install app
 npm install
+echo $PRIVATE_KEY > privatekey.pem
+echo $SERVER > server.crt
 #start app
 pm2 start ./bin/www --name devops-final
