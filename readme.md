@@ -5,6 +5,8 @@
 2. Truffle
 ...
 ---
+test
+
 # Install Dependencies
 1. use the cd command to navigate to the downloaded projects directory
 2. Run the npm install command
